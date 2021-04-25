@@ -2,6 +2,7 @@ html {
   font-size: 10px;
   background: url('./background.jpg') center;
   background-size: cover;
+  font-family: monospace;
 }
 
 body,html {
@@ -9,6 +10,7 @@ body,html {
   padding: 0;
   font-family: sans-serif;
 }
+
 
 .credit{
   text-decoration: none;
@@ -67,4 +69,11 @@ button:active{
   outline: none;
   background: transparent;
   border: 1px solid grey;
+}
+
+/*---------------RESPONSIVE----------------*/
+@media screen and (max-width: 1000px) {
+  .keyBoxes {
+    width: 100%;
+  }
 }
